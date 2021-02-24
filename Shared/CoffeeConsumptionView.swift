@@ -14,7 +14,8 @@ struct CoffeeConsumptionView: View {
         VStack(alignment: .leading) {
             InfoTextView(title: "Coffee consumption at a glance", subtitle: "See how much coffee you're drinking")
             
-            Spacer()
+            ChartViewWithAxes(xAxisDescription: "Past 5 days", yAxisDescription: "Coffees")
+                .frame(maxHeight: 400)
             
             Text("Coffee Consumption:")
                 .textWithBackground()

@@ -29,8 +29,11 @@
 		F46FAFBA25E3A2DE00007CC2 /* OutstandingLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFB925E3A2DE00007CC2 /* OutstandingLabelStyle.swift */; };
 		F46FAFCC25E4BC0900007CC2 /* TitleWithSubtitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFCB25E4BC0900007CC2 /* TitleWithSubtitleView.swift */; };
 		F46FAFD025E4BC1B00007CC2 /* InfoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFCF25E4BC1B00007CC2 /* InfoTextView.swift */; };
-		F46FAFF725E4D7E200007CC2 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFF625E4D7E200007CC2 /* HelperFunctions.swift */; };
-		F46FAFF825E4D7E200007CC2 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFF625E4D7E200007CC2 /* HelperFunctions.swift */; };
+		F46FAFD425E4C8C400007CC2 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFD325E4C8C400007CC2 /* ChartView.swift */; };
+		F46FAFD825E4CBA900007CC2 /* ChartBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFD725E4CBA900007CC2 /* ChartBar.swift */; };
+		F46FAFDC25E4D2D300007CC2 /* ChartViewWithAxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFDB25E4D2D300007CC2 /* ChartViewWithAxes.swift */; };
+		F46FAFFC25E4D7F300007CC2 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFFB25E4D7F300007CC2 /* HelperFunctions.swift */; };
+		F46FAFFD25E4D7F300007CC2 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFFB25E4D7F300007CC2 /* HelperFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,7 +57,10 @@
 		F46FAFB925E3A2DE00007CC2 /* OutstandingLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutstandingLabelStyle.swift; sourceTree = "<group>"; };
 		F46FAFCB25E4BC0900007CC2 /* TitleWithSubtitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleWithSubtitleView.swift; sourceTree = "<group>"; };
 		F46FAFCF25E4BC1B00007CC2 /* InfoTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTextView.swift; sourceTree = "<group>"; };
-		F46FAFF625E4D7E200007CC2 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		F46FAFD325E4C8C400007CC2 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		F46FAFD725E4CBA900007CC2 /* ChartBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartBar.swift; sourceTree = "<group>"; };
+		F46FAFDB25E4D2D300007CC2 /* ChartViewWithAxes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewWithAxes.swift; sourceTree = "<group>"; };
+		F46FAFFB25E4D7F300007CC2 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +138,7 @@
 			children = (
 				F46FAF6B25E38ACD00007CC2 /* Constants.swift */,
 				F46FAF7225E38AEA00007CC2 /* Color+Extension.swift */,
-				F46FAFF625E4D7E200007CC2 /* HelperFunctions.swift */,
+				F46FAFFB25E4D7F300007CC2 /* HelperFunctions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -178,6 +184,9 @@
 			children = (
 				F46FAF8025E38DC600007CC2 /* RoundedCornerRectangle.swift */,
 				F46FAF8825E38DFF00007CC2 /* ChartValue.swift */,
+				F46FAFD325E4C8C400007CC2 /* ChartView.swift */,
+				F46FAFDB25E4D2D300007CC2 /* ChartViewWithAxes.swift */,
+				F46FAFD725E4CBA900007CC2 /* ChartBar.swift */,
 			);
 			path = "Chart View";
 			sourceTree = "<group>";
@@ -282,14 +291,17 @@
 				F46FAF8125E38DC600007CC2 /* RoundedCornerRectangle.swift in Sources */,
 				F46FAFAE25E39E2400007CC2 /* StylishButtonStyle.swift in Sources */,
 				F46FAF5025E37A1E00007CC2 /* ContentView.swift in Sources */,
+				F46FAFD425E4C8C400007CC2 /* ChartView.swift in Sources */,
 				F46FAF4E25E37A1E00007CC2 /* Coffee_CounterApp.swift in Sources */,
 				F46FAF9225E3992400007CC2 /* CoffeeConsumptionView.swift in Sources */,
 				F46FAFB225E3A2AC00007CC2 /* LabelStylingExample.swift in Sources */,
 				F46FAF6C25E38ACD00007CC2 /* Constants.swift in Sources */,
-				F46FAFF725E4D7E200007CC2 /* HelperFunctions.swift in Sources */,
 				F46FAFA025E39A8000007CC2 /* TextWithBackground.swift in Sources */,
 				F46FAF8925E38DFF00007CC2 /* ChartValue.swift in Sources */,
 				F46FAF7325E38AEA00007CC2 /* Color+Extension.swift in Sources */,
+				F46FAFD825E4CBA900007CC2 /* ChartBar.swift in Sources */,
+				F46FAFDC25E4D2D300007CC2 /* ChartViewWithAxes.swift in Sources */,
+				F46FAFFC25E4D7F300007CC2 /* HelperFunctions.swift in Sources */,
 				F46FAFBA25E3A2DE00007CC2 /* OutstandingLabelStyle.swift in Sources */,
 				F46FAFCC25E4BC0900007CC2 /* TitleWithSubtitleView.swift in Sources */,
 				F46FAFD025E4BC1B00007CC2 /* InfoTextView.swift in Sources */,
@@ -301,7 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F46FAF8225E38DC600007CC2 /* RoundedCornerRectangle.swift in Sources */,
-				F46FAFF825E4D7E200007CC2 /* HelperFunctions.swift in Sources */,
+				F46FAFFD25E4D7F300007CC2 /* HelperFunctions.swift in Sources */,
 				F46FAF7425E38AEA00007CC2 /* Color+Extension.swift in Sources */,
 				F46FAF9725E399A100007CC2 /* ContentView.swift in Sources */,
 				F46FAF5F25E37A6900007CC2 /* AppDelegate.swift in Sources */,
