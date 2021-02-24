@@ -10,20 +10,25 @@
 		F46FAF4E25E37A1E00007CC2 /* Coffee_CounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF3B25E37A1C00007CC2 /* Coffee_CounterApp.swift */; };
 		F46FAF4F25E37A1E00007CC2 /* Coffee_CounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF3B25E37A1C00007CC2 /* Coffee_CounterApp.swift */; };
 		F46FAF5025E37A1E00007CC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF3C25E37A1C00007CC2 /* ContentView.swift */; };
-		F46FAF5125E37A1E00007CC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF3C25E37A1C00007CC2 /* ContentView.swift */; };
 		F46FAF5F25E37A6900007CC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF5E25E37A6900007CC2 /* AppDelegate.swift */; };
 		F46FAF6725E37AC300007CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46FAF6625E37AC300007CC2 /* Assets.xcassets */; };
 		F46FAF6C25E38ACD00007CC2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF6B25E38ACD00007CC2 /* Constants.swift */; };
 		F46FAF6D25E38ACD00007CC2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF6B25E38ACD00007CC2 /* Constants.swift */; };
 		F46FAF7325E38AEA00007CC2 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF7225E38AEA00007CC2 /* Color+Extension.swift */; };
 		F46FAF7425E38AEA00007CC2 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF7225E38AEA00007CC2 /* Color+Extension.swift */; };
+		F46FAF8125E38DC600007CC2 /* RoundedCornerRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF8025E38DC600007CC2 /* RoundedCornerRectangle.swift */; };
+		F46FAF8225E38DC600007CC2 /* RoundedCornerRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF8025E38DC600007CC2 /* RoundedCornerRectangle.swift */; };
 		F46FAF8925E38DFF00007CC2 /* ChartValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF8825E38DFF00007CC2 /* ChartValue.swift */; };
 		F46FAF8A25E38DFF00007CC2 /* ChartValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF8825E38DFF00007CC2 /* ChartValue.swift */; };
-		F46FAFAA25E39CAB00007CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46FAF6625E37AC300007CC2 /* Assets.xcassets */; };
-		F46FAFED25E4D7BD00007CC2 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFEC25E4D7BD00007CC2 /* HelperFunctions.swift */; };
-		F46FAFEE25E4D7BD00007CC2 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFEC25E4D7BD00007CC2 /* HelperFunctions.swift */; };
-		F4A9E38725E61BA100E620A3 /* RoundedCornerRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A9E38125E61B9D00E620A3 /* RoundedCornerRectangle.swift */; };
-		F4A9E39525E61C8000E620A3 /* RoundedCornerRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A9E38125E61B9D00E620A3 /* RoundedCornerRectangle.swift */; };
+		F46FAF9225E3992400007CC2 /* CoffeeConsumptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF9125E3992400007CC2 /* CoffeeConsumptionView.swift */; };
+		F46FAF9725E399A100007CC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF3C25E37A1C00007CC2 /* ContentView.swift */; };
+		F46FAFA025E39A8000007CC2 /* TextWithBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF9F25E39A8000007CC2 /* TextWithBackground.swift */; };
+		F46FAFA725E39C8C00007CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46FAF6625E37AC300007CC2 /* Assets.xcassets */; };
+		F46FAFAE25E39E2400007CC2 /* StylishButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFAD25E39E2400007CC2 /* StylishButtonStyle.swift */; };
+		F46FAFB225E3A2AC00007CC2 /* LabelStylingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFB125E3A2AC00007CC2 /* LabelStylingExample.swift */; };
+		F46FAFBA25E3A2DE00007CC2 /* OutstandingLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFB925E3A2DE00007CC2 /* OutstandingLabelStyle.swift */; };
+		F46FAFF225E4D7CF00007CC2 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFF125E4D7CF00007CC2 /* HelperFunctions.swift */; };
+		F46FAFF325E4D7CF00007CC2 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFF125E4D7CF00007CC2 /* HelperFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,9 +43,14 @@
 		F46FAF6625E37AC300007CC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F46FAF6B25E38ACD00007CC2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F46FAF7225E38AEA00007CC2 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		F46FAF8025E38DC600007CC2 /* RoundedCornerRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerRectangle.swift; sourceTree = "<group>"; };
 		F46FAF8825E38DFF00007CC2 /* ChartValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartValue.swift; sourceTree = "<group>"; };
-		F46FAFEC25E4D7BD00007CC2 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
-		F4A9E38125E61B9D00E620A3 /* RoundedCornerRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerRectangle.swift; sourceTree = "<group>"; };
+		F46FAF9125E3992400007CC2 /* CoffeeConsumptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeConsumptionView.swift; sourceTree = "<group>"; };
+		F46FAF9F25E39A8000007CC2 /* TextWithBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWithBackground.swift; sourceTree = "<group>"; };
+		F46FAFAD25E39E2400007CC2 /* StylishButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylishButtonStyle.swift; sourceTree = "<group>"; };
+		F46FAFB125E3A2AC00007CC2 /* LabelStylingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelStylingExample.swift; sourceTree = "<group>"; };
+		F46FAFB925E3A2DE00007CC2 /* OutstandingLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutstandingLabelStyle.swift; sourceTree = "<group>"; };
+		F46FAFF125E4D7CF00007CC2 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,7 @@
 				F46FAF3B25E37A1C00007CC2 /* Coffee_CounterApp.swift */,
 				F46FAF3C25E37A1C00007CC2 /* ContentView.swift */,
 				F46FAF6625E37AC300007CC2 /* Assets.xcassets */,
+				F46FAF9125E3992400007CC2 /* CoffeeConsumptionView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -116,7 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				F46FAF6B25E38ACD00007CC2 /* Constants.swift */,
-				F46FAFEC25E4D7BD00007CC2 /* HelperFunctions.swift */,
+				F46FAFF125E4D7CF00007CC2 /* HelperFunctions.swift */,
 				F46FAF7225E38AEA00007CC2 /* Color+Extension.swift */,
 			);
 			path = Helpers;
@@ -125,6 +136,7 @@
 		F46FAF7B25E38D6800007CC2 /* Modifiers */ = {
 			isa = PBXGroup;
 			children = (
+				F46FAF9F25E39A8000007CC2 /* TextWithBackground.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -132,6 +144,9 @@
 		F46FAF7C25E38D8000007CC2 /* Custom Styles */ = {
 			isa = PBXGroup;
 			children = (
+				F46FAFAD25E39E2400007CC2 /* StylishButtonStyle.swift */,
+				F46FAFB125E3A2AC00007CC2 /* LabelStylingExample.swift */,
+				F46FAFB925E3A2DE00007CC2 /* OutstandingLabelStyle.swift */,
 			);
 			path = "Custom Styles";
 			sourceTree = "<group>";
@@ -155,7 +170,7 @@
 		F46FAF7F25E38DAE00007CC2 /* Chart View */ = {
 			isa = PBXGroup;
 			children = (
-				F4A9E38125E61B9D00E620A3 /* RoundedCornerRectangle.swift */,
+				F46FAF8025E38DC600007CC2 /* RoundedCornerRectangle.swift */,
 				F46FAF8825E38DFF00007CC2 /* ChartValue.swift */,
 			);
 			path = "Chart View";
@@ -239,7 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F46FAFAA25E39CAB00007CC2 /* Assets.xcassets in Resources */,
+				F46FAFA725E39C8C00007CC2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,13 +273,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F46FAFED25E4D7BD00007CC2 /* HelperFunctions.swift in Sources */,
+				F46FAF8125E38DC600007CC2 /* RoundedCornerRectangle.swift in Sources */,
+				F46FAFAE25E39E2400007CC2 /* StylishButtonStyle.swift in Sources */,
 				F46FAF5025E37A1E00007CC2 /* ContentView.swift in Sources */,
 				F46FAF4E25E37A1E00007CC2 /* Coffee_CounterApp.swift in Sources */,
+				F46FAF9225E3992400007CC2 /* CoffeeConsumptionView.swift in Sources */,
+				F46FAFF225E4D7CF00007CC2 /* HelperFunctions.swift in Sources */,
+				F46FAFB225E3A2AC00007CC2 /* LabelStylingExample.swift in Sources */,
 				F46FAF6C25E38ACD00007CC2 /* Constants.swift in Sources */,
+				F46FAFA025E39A8000007CC2 /* TextWithBackground.swift in Sources */,
 				F46FAF8925E38DFF00007CC2 /* ChartValue.swift in Sources */,
-				F4A9E39525E61C8000E620A3 /* RoundedCornerRectangle.swift in Sources */,
 				F46FAF7325E38AEA00007CC2 /* Color+Extension.swift in Sources */,
+				F46FAFBA25E3A2DE00007CC2 /* OutstandingLabelStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,13 +292,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F46FAFEE25E4D7BD00007CC2 /* HelperFunctions.swift in Sources */,
-				F46FAF5125E37A1E00007CC2 /* ContentView.swift in Sources */,
+				F46FAF8225E38DC600007CC2 /* RoundedCornerRectangle.swift in Sources */,
+				F46FAFF325E4D7CF00007CC2 /* HelperFunctions.swift in Sources */,
 				F46FAF7425E38AEA00007CC2 /* Color+Extension.swift in Sources */,
+				F46FAF9725E399A100007CC2 /* ContentView.swift in Sources */,
 				F46FAF5F25E37A6900007CC2 /* AppDelegate.swift in Sources */,
 				F46FAF8A25E38DFF00007CC2 /* ChartValue.swift in Sources */,
 				F46FAF4F25E37A1E00007CC2 /* Coffee_CounterApp.swift in Sources */,
-				F4A9E38725E61BA100E620A3 /* RoundedCornerRectangle.swift in Sources */,
 				F46FAF6D25E38ACD00007CC2 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,7 +423,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = C58BUT9PYW;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -425,7 +445,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = C58BUT9PYW;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -448,10 +468,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = C58BUT9PYW;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
@@ -473,10 +492,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = C58BUT9PYW;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;

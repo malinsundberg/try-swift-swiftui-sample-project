@@ -1,8 +1,8 @@
 //
 //  RoundedCornerRectangle.swift
-//  Coffee Counter (iOS)
+//  Coffee Counter
 //
-//  Created by Malin Sundberg on 2021-02-23.
+//  Created by Malin Sundberg on 2021-02-21.
 //
 
 import SwiftUI
