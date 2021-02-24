@@ -12,7 +12,13 @@ struct ContentView: View {
         #if os(iOS)
         NavigationView {
             CoffeeConsumptionView()
+                .navigationTitle("Coffee Counter")
         }
+        #elseif os(macOS)
+        CoffeeConsumptionView()
+            .padding()
+            .frame(minWidth: 500, minHeight: 650)
+            .background(Color.CoffeeCounter.background)
         #endif
     }
 }

@@ -14,14 +14,31 @@ struct ChartView: View {
     
     var body: some View {
         HStack {
-            ForEach(Array(chartValues.enumerated()), id: \.offset) { (index, chartValue) in
+            ForEach(chartValues) { chartValue in
                 ChartBar(value: normalizedValue(for: CGFloat(chartValue.value)), isSelected: chartValue.id == selectedID)
-                    .onTapGesture {
-                        withAnimation {
-                            if selectedID == chartValue.id {
-                                selectedID = nil
-                            } else {
-                                selectedID = chartValue.id
+                    .iOS {
+                        $0.onTapGesture {
+                            withAnimation {
+                                if selectedID == chartValue.id {
+                                    selectedID = nil
+                                } else {
+                                    selectedID = chartValue.id
+                                }
+                            }
+                        }
+                    }
+                    .macOS {
+                        $0.onHover { isHovering in
+                            withAnimation {
+                                if isHovering {
+                                    if selectedID != chartValue.id {
+                                        selectedID = chartValue.id
+                                    }
+                                } else {
+                                    if selectedID == chartValue.id {
+                                        selectedID = nil
+                                    }
+                                }
                             }
                         }
                     }

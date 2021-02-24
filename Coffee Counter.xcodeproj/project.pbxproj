@@ -17,7 +17,6 @@
 		F46FAF7325E38AEA00007CC2 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF7225E38AEA00007CC2 /* Color+Extension.swift */; };
 		F46FAF7425E38AEA00007CC2 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF7225E38AEA00007CC2 /* Color+Extension.swift */; };
 		F46FAF8125E38DC600007CC2 /* RoundedCornerRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF8025E38DC600007CC2 /* RoundedCornerRectangle.swift */; };
-		F46FAF8225E38DC600007CC2 /* RoundedCornerRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF8025E38DC600007CC2 /* RoundedCornerRectangle.swift */; };
 		F46FAF8925E38DFF00007CC2 /* ChartValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF8825E38DFF00007CC2 /* ChartValue.swift */; };
 		F46FAF8A25E38DFF00007CC2 /* ChartValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF8825E38DFF00007CC2 /* ChartValue.swift */; };
 		F46FAF9225E3992400007CC2 /* CoffeeConsumptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF9125E3992400007CC2 /* CoffeeConsumptionView.swift */; };
@@ -34,6 +33,17 @@
 		F46FAFDC25E4D2D300007CC2 /* ChartViewWithAxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFDB25E4D2D300007CC2 /* ChartViewWithAxes.swift */; };
 		F46FAFE825E4D79200007CC2 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFE725E4D79200007CC2 /* HelperFunctions.swift */; };
 		F46FAFE925E4D79200007CC2 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFE725E4D79200007CC2 /* HelperFunctions.swift */; };
+		F46FB00225E4E53900007CC2 /* CoffeeConsumptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF9125E3992400007CC2 /* CoffeeConsumptionView.swift */; };
+		F46FB00525E4E54F00007CC2 /* InfoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFCF25E4BC1B00007CC2 /* InfoTextView.swift */; };
+		F46FB00825E4E55600007CC2 /* TitleWithSubtitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFCB25E4BC0900007CC2 /* TitleWithSubtitleView.swift */; };
+		F46FB00D25E4E77400007CC2 /* ChartViewWithAxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFDB25E4D2D300007CC2 /* ChartViewWithAxes.swift */; };
+		F46FB01025E4E77900007CC2 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFD325E4C8C400007CC2 /* ChartView.swift */; };
+		F46FB01325E4E78500007CC2 /* ChartBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFD725E4CBA900007CC2 /* ChartBar.swift */; };
+		F46FB01725E4E7D400007CC2 /* PlatformModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FB01625E4E7D400007CC2 /* PlatformModifiers.swift */; };
+		F46FB01825E4E7D400007CC2 /* PlatformModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FB01625E4E7D400007CC2 /* PlatformModifiers.swift */; };
+		F46FB01B25E4EF4200007CC2 /* TextWithBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF9F25E39A8000007CC2 /* TextWithBackground.swift */; };
+		F46FB01E25E4EF9000007CC2 /* StylishButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFAD25E39E2400007CC2 /* StylishButtonStyle.swift */; };
+		F4A9E39225E61C6600E620A3 /* RoundedCornerRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF8025E38DC600007CC2 /* RoundedCornerRectangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +71,7 @@
 		F46FAFD725E4CBA900007CC2 /* ChartBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartBar.swift; sourceTree = "<group>"; };
 		F46FAFDB25E4D2D300007CC2 /* ChartViewWithAxes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewWithAxes.swift; sourceTree = "<group>"; };
 		F46FAFE725E4D79200007CC2 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		F46FB01625E4E7D400007CC2 /* PlatformModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +150,7 @@
 				F46FAF6B25E38ACD00007CC2 /* Constants.swift */,
 				F46FAF7225E38AEA00007CC2 /* Color+Extension.swift */,
 				F46FAFE725E4D79200007CC2 /* HelperFunctions.swift */,
+				F46FB01625E4E7D400007CC2 /* PlatformModifiers.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -299,6 +311,7 @@
 				F46FAFA025E39A8000007CC2 /* TextWithBackground.swift in Sources */,
 				F46FAF8925E38DFF00007CC2 /* ChartValue.swift in Sources */,
 				F46FAF7325E38AEA00007CC2 /* Color+Extension.swift in Sources */,
+				F46FB01725E4E7D400007CC2 /* PlatformModifiers.swift in Sources */,
 				F46FAFD825E4CBA900007CC2 /* ChartBar.swift in Sources */,
 				F46FAFDC25E4D2D300007CC2 /* ChartViewWithAxes.swift in Sources */,
 				F46FAFE825E4D79200007CC2 /* HelperFunctions.swift in Sources */,
@@ -312,14 +325,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F46FAF8225E38DC600007CC2 /* RoundedCornerRectangle.swift in Sources */,
+				F46FB00D25E4E77400007CC2 /* ChartViewWithAxes.swift in Sources */,
+				F46FB01025E4E77900007CC2 /* ChartView.swift in Sources */,
+				F46FB00225E4E53900007CC2 /* CoffeeConsumptionView.swift in Sources */,
+				F46FB00825E4E55600007CC2 /* TitleWithSubtitleView.swift in Sources */,
+				F46FB01B25E4EF4200007CC2 /* TextWithBackground.swift in Sources */,
 				F46FAFE925E4D79200007CC2 /* HelperFunctions.swift in Sources */,
 				F46FAF7425E38AEA00007CC2 /* Color+Extension.swift in Sources */,
 				F46FAF9725E399A100007CC2 /* ContentView.swift in Sources */,
+				F4A9E39225E61C6600E620A3 /* RoundedCornerRectangle.swift in Sources */,
+				F46FB00525E4E54F00007CC2 /* InfoTextView.swift in Sources */,
 				F46FAF5F25E37A6900007CC2 /* AppDelegate.swift in Sources */,
 				F46FAF8A25E38DFF00007CC2 /* ChartValue.swift in Sources */,
 				F46FAF4F25E37A1E00007CC2 /* Coffee_CounterApp.swift in Sources */,
+				F46FB01325E4E78500007CC2 /* ChartBar.swift in Sources */,
 				F46FAF6D25E38ACD00007CC2 /* Constants.swift in Sources */,
+				F46FB01E25E4EF9000007CC2 /* StylishButtonStyle.swift in Sources */,
+				F46FB01825E4E7D400007CC2 /* PlatformModifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

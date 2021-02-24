@@ -15,24 +15,31 @@ struct CoffeeConsumptionView: View {
         VStack(alignment: .leading) {
             InfoTextView(title: "Coffee consumption at a glance", subtitle: "See how much coffee you're drinking")
             
-            ChartViewWithAxes(xAxisDescription: "Past 5 days", yAxisDescription: "Coffees", chartValues: chartValues, selectedID: $selectedID)
-                .frame(maxHeight: 400)
-            
+            HStack {
+                Spacer()
+                ChartViewWithAxes(xAxisDescription: "Past 5 days", yAxisDescription: "Coffees", chartValues: chartValues, selectedID: $selectedID)
+                    .macOS {
+                        $0.frame(minWidth: 400, maxWidth: 500, minHeight: 400, maxHeight: 400)
+                    }
+                Spacer()
+            }
+
             Text("Coffee Consumption:")
                 .textWithBackground()
-            
+                .padding(.bottom, 6)
+
             if let selectedID = selectedID, let value = chartValues.first(where: { $0.id == selectedID })?.value {
                 TitleWithSubtitleView(title: value == 0 ? "No coffee" : (value == 1 ? "\(value) coffee" : "\(value) coffees"), subtitle: "On selected day")
             } else {
                 TitleWithSubtitleView(title: "No day selected", subtitle: "Select the day you want to see details for")
             }
-            
+
             Spacer()
-            
+
             Button("Coffee Time!") {
                 incrementCoffeeCount()
             }.buttonStyle(StylishButtonStyle())
-        }.navigationTitle("Coffee Counter")
+        }
         .padding()
     }
     

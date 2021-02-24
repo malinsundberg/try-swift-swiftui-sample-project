@@ -13,11 +13,27 @@ struct InfoTextView: View {
     
     var body: some View {
         HStack {
+            InfoImage()
+            TitleWithSubtitleView(title: title, subtitle: subtitle)
+        }
+    }
+}
+
+struct InfoImage: View {
+    var body: some View {
+        #if os(iOS)
+        Image(systemName: "info.circle")
+            .foregroundColor(Color.CoffeeCounter.primary)
+            .imageScale(.large)
+        #elseif os(macOS)
+        if #available(macOS 11.0, *) {
             Image(systemName: "info.circle")
                 .foregroundColor(Color.CoffeeCounter.primary)
                 .imageScale(.large)
-            TitleWithSubtitleView(title: title, subtitle: subtitle)
+        } else {
+            Image(nsImage: NSImage(imageLiteralResourceName: NSImage.infoName))
         }
+        #endif
     }
 }
 

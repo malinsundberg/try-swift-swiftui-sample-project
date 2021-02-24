@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct StylishButtonStyle: ButtonStyle {
+    #if os(iOS)
+    let cornerRadius: CGFloat = 10
+    let fill = LinearGradient(gradient: Gradient(colors: [Color.CoffeeCounter.secondary, Color.CoffeeCounter.primary, Color.CoffeeCounter.tertiary]), startPoint: .leading, endPoint: .trailing)
+    #elseif os(macOS)
+    let cornerRadius: CGFloat = 6
+    let fill = Color.CoffeeCounter.primary
+    #endif
+    
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .font(Font.headline.bold())
@@ -15,11 +23,11 @@ struct StylishButtonStyle: ButtonStyle {
             .frame(maxWidth: .infinity)
             .padding(.horizontal)
             .padding(.vertical, 14)
-            .background(RoundedRectangle(cornerRadius: 10, style: .continuous)
-                            .fill(LinearGradient(gradient: Gradient(colors: [Color.CoffeeCounter.secondary, Color.CoffeeCounter.primary, Color.CoffeeCounter.tertiary]), startPoint: .leading, endPoint: .trailing)))
-            .overlay(RoundedRectangle(cornerRadius: 10, style: .continuous)
+            .background(RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
+                            .fill(fill))
+            .overlay(RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
                         .strokeBorder(Color.CoffeeCounter.outline, lineWidth: 1))
-            .overlay(configuration.isPressed ? RoundedRectangle(cornerRadius: 10, style: .continuous)
+            .overlay(configuration.isPressed ? RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
                         .fill(Color.CoffeeCounter.buttonInteraction) : nil)
         
     }
