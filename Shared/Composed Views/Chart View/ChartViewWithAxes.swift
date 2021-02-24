@@ -11,6 +11,10 @@ struct ChartViewWithAxes: View {
     let xAxisDescription: String?
     let yAxisDescription: String?
     
+    let chartValues: [ChartValue]
+    
+    @Binding var selectedID: ChartValue.ID?
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             yAxisDescription.map {
@@ -21,7 +25,7 @@ struct ChartViewWithAxes: View {
             
             HStack {
                 Divider()
-                ChartView()
+                ChartView(chartValues: chartValues, selectedID: $selectedID)
             }
             
             Divider()
@@ -42,6 +46,6 @@ struct ChartViewWithAxes: View {
 
 struct ChartViewWithAxes_Previews: PreviewProvider {
     static var previews: some View {
-        ChartViewWithAxes(xAxisDescription: "X-Axis", yAxisDescription: "Y-Axis")
+        ChartViewWithAxes(xAxisDescription: "X-Axis", yAxisDescription: "Y-Axis", chartValues: ChartValue.chartSampleValues, selectedID: .constant(nil))
     }
 }
