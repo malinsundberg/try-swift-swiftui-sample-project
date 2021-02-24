@@ -8,27 +8,41 @@
 import SwiftUI
 
 struct CoffeeConsumptionView: View {
-    @State private var coffeeCounter = 0
+    @State private var chartValues = ChartValue.chartSampleValues
+    @State private var selectedID: ChartValue.ID? = nil
     
     var body: some View {
         VStack(alignment: .leading) {
             InfoTextView(title: "Coffee consumption at a glance", subtitle: "See how much coffee you're drinking")
             
-            ChartViewWithAxes(xAxisDescription: "Past 5 days", yAxisDescription: "Coffees")
+            ChartViewWithAxes(xAxisDescription: "Past 5 days", yAxisDescription: "Coffees", chartValues: chartValues, selectedID: $selectedID)
                 .frame(maxHeight: 400)
             
             Text("Coffee Consumption:")
                 .textWithBackground()
             
-            TitleWithSubtitleView(title: coffeeCounter == 0 ? "No coffee today" : (coffeeCounter == 1 ? "\(coffeeCounter) coffee today" : "\(coffeeCounter) coffees today"), subtitle: "Wednesday 24th")
+            if let selectedID = selectedID, let value = chartValues.first(where: { $0.id == selectedID })?.value {
+                TitleWithSubtitleView(title: value == 0 ? "No coffee" : (value == 1 ? "\(value) coffee" : "\(value) coffees"), subtitle: "On selected day")
+            } else {
+                TitleWithSubtitleView(title: "No day selected", subtitle: "Select the day you want to see details for")
+            }
             
             Spacer()
             
             Button("Coffee Time!") {
-                coffeeCounter += 1
+                incrementCoffeeCount()
             }.buttonStyle(StylishButtonStyle())
         }.navigationTitle("Coffee Counter")
         .padding()
+    }
+    
+    private func incrementCoffeeCount() {
+        let last = chartValues.count - 1
+        let newValue = chartValues[last].value + 1
+        let id = chartValues[last].id
+        withAnimation {
+            chartValues[last] = ChartValue(id: id, value: newValue)
+        }
     }
 }
 

@@ -8,12 +8,23 @@
 import SwiftUI
 
 struct ChartView: View {
-    let chartValues = ChartValue.chartSampleValues
+    let chartValues: [ChartValue]
+    
+    @Binding var selectedID: ChartValue.ID?
     
     var body: some View {
         HStack {
             ForEach(Array(chartValues.enumerated()), id: \.offset) { (index, chartValue) in
-                ChartBar(value: normalizedValue(for: CGFloat(chartValue.value)))
+                ChartBar(value: normalizedValue(for: CGFloat(chartValue.value)), isSelected: chartValue.id == selectedID)
+                    .onTapGesture {
+                        withAnimation {
+                            if selectedID == chartValue.id {
+                                selectedID = nil
+                            } else {
+                                selectedID = chartValue.id
+                            }
+                        }
+                    }
             }
         }
     }
@@ -26,6 +37,6 @@ struct ChartView: View {
 
 struct ChartView_Previews: PreviewProvider {
     static var previews: some View {
-        ChartView()
+        ChartView(chartValues: ChartValue.chartSampleValues, selectedID: .constant(nil))
     }
 }
