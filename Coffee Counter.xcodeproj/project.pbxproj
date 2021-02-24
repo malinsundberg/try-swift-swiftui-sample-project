@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F46FAF4E25E37A1E00007CC2 /* Coffee_CounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF3B25E37A1C00007CC2 /* Coffee_CounterApp.swift */; };
+		F46FAF4F25E37A1E00007CC2 /* Coffee_CounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF3B25E37A1C00007CC2 /* Coffee_CounterApp.swift */; };
+		F46FAF5025E37A1E00007CC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF3C25E37A1C00007CC2 /* ContentView.swift */; };
+		F46FAF5125E37A1E00007CC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF3C25E37A1C00007CC2 /* ContentView.swift */; };
+		F46FAF5F25E37A6900007CC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF5E25E37A6900007CC2 /* AppDelegate.swift */; };
+		F46FAF6725E37AC300007CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46FAF6625E37AC300007CC2 /* Assets.xcassets */; };
+		F46FAF6C25E38ACD00007CC2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF6B25E38ACD00007CC2 /* Constants.swift */; };
+		F46FAF6D25E38ACD00007CC2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF6B25E38ACD00007CC2 /* Constants.swift */; };
+		F46FAF7325E38AEA00007CC2 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF7225E38AEA00007CC2 /* Color+Extension.swift */; };
+		F46FAF7425E38AEA00007CC2 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF7225E38AEA00007CC2 /* Color+Extension.swift */; };
+		F46FAF8925E38DFF00007CC2 /* ChartValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF8825E38DFF00007CC2 /* ChartValue.swift */; };
+		F46FAF8A25E38DFF00007CC2 /* ChartValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF8825E38DFF00007CC2 /* ChartValue.swift */; };
+		F46FAFAA25E39CAB00007CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46FAF6625E37AC300007CC2 /* Assets.xcassets */; };
+		F46FAFED25E4D7BD00007CC2 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFEC25E4D7BD00007CC2 /* HelperFunctions.swift */; };
+		F46FAFEE25E4D7BD00007CC2 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFEC25E4D7BD00007CC2 /* HelperFunctions.swift */; };
+		F4A9E38725E61BA100E620A3 /* RoundedCornerRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A9E38125E61B9D00E620A3 /* RoundedCornerRectangle.swift */; };
+		F4A9E39525E61C8000E620A3 /* RoundedCornerRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A9E38125E61B9D00E620A3 /* RoundedCornerRectangle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F46FAF3B25E37A1C00007CC2 /* Coffee_CounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_CounterApp.swift; sourceTree = "<group>"; };
+		F46FAF3C25E37A1C00007CC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F46FAF4225E37A1E00007CC2 /* Coffee Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffee Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46FAF4525E37A1E00007CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F46FAF4A25E37A1E00007CC2 /* Coffee Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffee Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46FAF4C25E37A1E00007CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F46FAF4D25E37A1E00007CC2 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F46FAF5E25E37A6900007CC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F46FAF6625E37AC300007CC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F46FAF6B25E38ACD00007CC2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F46FAF7225E38AEA00007CC2 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		F46FAF8825E38DFF00007CC2 /* ChartValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartValue.swift; sourceTree = "<group>"; };
+		F46FAFEC25E4D7BD00007CC2 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		F4A9E38125E61B9D00E620A3 /* RoundedCornerRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerRectangle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F46FAF3F25E37A1E00007CC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46FAF4725E37A1E00007CC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F46FAF3525E37A1C00007CC2 = {
+			isa = PBXGroup;
+			children = (
+				F46FAF3A25E37A1C00007CC2 /* Shared */,
+				F46FAF4425E37A1E00007CC2 /* iOS */,
+				F46FAF4B25E37A1E00007CC2 /* macOS */,
+				F46FAF4325E37A1E00007CC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F46FAF3A25E37A1C00007CC2 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F46FAF6A25E38AB300007CC2 /* Helpers */,
+				F46FAF7B25E38D6800007CC2 /* Modifiers */,
+				F46FAF7C25E38D8000007CC2 /* Custom Styles */,
+				F46FAF7D25E38D9700007CC2 /* Composed Views */,
+				F46FAF3B25E37A1C00007CC2 /* Coffee_CounterApp.swift */,
+				F46FAF3C25E37A1C00007CC2 /* ContentView.swift */,
+				F46FAF6625E37AC300007CC2 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F46FAF4325E37A1E00007CC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F46FAF4225E37A1E00007CC2 /* Coffee Counter.app */,
+				F46FAF4A25E37A1E00007CC2 /* Coffee Counter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F46FAF4425E37A1E00007CC2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F46FAF4525E37A1E00007CC2 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		F46FAF4B25E37A1E00007CC2 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F4A9E38025E61B8F00E620A3 /* Chart View */,
+				F46FAF4C25E37A1E00007CC2 /* Info.plist */,
+				F46FAF4D25E37A1E00007CC2 /* macOS.entitlements */,
+				F46FAF5E25E37A6900007CC2 /* AppDelegate.swift */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		F46FAF6A25E38AB300007CC2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F46FAF6B25E38ACD00007CC2 /* Constants.swift */,
+				F46FAFEC25E4D7BD00007CC2 /* HelperFunctions.swift */,
+				F46FAF7225E38AEA00007CC2 /* Color+Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F46FAF7B25E38D6800007CC2 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		F46FAF7C25E38D8000007CC2 /* Custom Styles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Custom Styles";
+			sourceTree = "<group>";
+		};
+		F46FAF7D25E38D9700007CC2 /* Composed Views */ = {
+			isa = PBXGroup;
+			children = (
+				F46FAF7E25E38DA100007CC2 /* Title and Subtitle View */,
+				F46FAF7F25E38DAE00007CC2 /* Chart View */,
+			);
+			path = "Composed Views";
+			sourceTree = "<group>";
+		};
+		F46FAF7E25E38DA100007CC2 /* Title and Subtitle View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Title and Subtitle View";
+			sourceTree = "<group>";
+		};
+		F46FAF7F25E38DAE00007CC2 /* Chart View */ = {
+			isa = PBXGroup;
+			children = (
+				F4A9E38125E61B9D00E620A3 /* RoundedCornerRectangle.swift */,
+				F46FAF8825E38DFF00007CC2 /* ChartValue.swift */,
+			);
+			path = "Chart View";
+			sourceTree = "<group>";
+		};
+		F4A9E38025E61B8F00E620A3 /* Chart View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Chart View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F46FAF4125E37A1E00007CC2 /* Coffee Counter (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46FAF5625E37A1E00007CC2 /* Build configuration list for PBXNativeTarget "Coffee Counter (iOS)" */;
+			buildPhases = (
+				F46FAF3E25E37A1E00007CC2 /* Sources */,
+				F46FAF3F25E37A1E00007CC2 /* Frameworks */,
+				F46FAF4025E37A1E00007CC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coffee Counter (iOS)";
+			productName = "Coffee Counter (iOS)";
+			productReference = F46FAF4225E37A1E00007CC2 /* Coffee Counter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F46FAF4925E37A1E00007CC2 /* Coffee Counter (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46FAF5925E37A1E00007CC2 /* Build configuration list for PBXNativeTarget "Coffee Counter (macOS)" */;
+			buildPhases = (
+				F46FAF4625E37A1E00007CC2 /* Sources */,
+				F46FAF4725E37A1E00007CC2 /* Frameworks */,
+				F46FAF4825E37A1E00007CC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coffee Counter (macOS)";
+			productName = "Coffee Counter (macOS)";
+			productReference = F46FAF4A25E37A1E00007CC2 /* Coffee Counter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F46FAF3625E37A1C00007CC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F46FAF4125E37A1E00007CC2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					F46FAF4925E37A1E00007CC2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = F46FAF3925E37A1C00007CC2 /* Build configuration list for PBXProject "Coffee Counter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F46FAF3525E37A1C00007CC2;
+			productRefGroup = F46FAF4325E37A1E00007CC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F46FAF4125E37A1E00007CC2 /* Coffee Counter (iOS) */,
+				F46FAF4925E37A1E00007CC2 /* Coffee Counter (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F46FAF4025E37A1E00007CC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46FAFAA25E39CAB00007CC2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46FAF4825E37A1E00007CC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46FAF6725E37AC300007CC2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F46FAF3E25E37A1E00007CC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46FAFED25E4D7BD00007CC2 /* HelperFunctions.swift in Sources */,
+				F46FAF5025E37A1E00007CC2 /* ContentView.swift in Sources */,
+				F46FAF4E25E37A1E00007CC2 /* Coffee_CounterApp.swift in Sources */,
+				F46FAF6C25E38ACD00007CC2 /* Constants.swift in Sources */,
+				F46FAF8925E38DFF00007CC2 /* ChartValue.swift in Sources */,
+				F4A9E39525E61C8000E620A3 /* RoundedCornerRectangle.swift in Sources */,
+				F46FAF7325E38AEA00007CC2 /* Color+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46FAF4625E37A1E00007CC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46FAFEE25E4D7BD00007CC2 /* HelperFunctions.swift in Sources */,
+				F46FAF5125E37A1E00007CC2 /* ContentView.swift in Sources */,
+				F46FAF7425E38AEA00007CC2 /* Color+Extension.swift in Sources */,
+				F46FAF5F25E37A6900007CC2 /* AppDelegate.swift in Sources */,
+				F46FAF8A25E38DFF00007CC2 /* ChartValue.swift in Sources */,
+				F46FAF4F25E37A1E00007CC2 /* Coffee_CounterApp.swift in Sources */,
+				F4A9E38725E61BA100E620A3 /* RoundedCornerRectangle.swift in Sources */,
+				F46FAF6D25E38ACD00007CC2 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F46FAF5425E37A1E00007CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F46FAF5525E37A1E00007CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F46FAF5725E37A1E00007CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.malinsundberg.Coffee-Counter";
+				PRODUCT_NAME = "Coffee Counter";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F46FAF5825E37A1E00007CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.malinsundberg.Coffee-Counter";
+				PRODUCT_NAME = "Coffee Counter";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F46FAF5A25E37A1E00007CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.malinsundberg.Coffee-Counter";
+				PRODUCT_NAME = "Coffee Counter";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F46FAF5B25E37A1E00007CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.malinsundberg.Coffee-Counter";
+				PRODUCT_NAME = "Coffee Counter";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F46FAF3925E37A1C00007CC2 /* Build configuration list for PBXProject "Coffee Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46FAF5425E37A1E00007CC2 /* Debug */,
+				F46FAF5525E37A1E00007CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F46FAF5625E37A1E00007CC2 /* Build configuration list for PBXNativeTarget "Coffee Counter (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46FAF5725E37A1E00007CC2 /* Debug */,
+				F46FAF5825E37A1E00007CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F46FAF5925E37A1E00007CC2 /* Build configuration list for PBXNativeTarget "Coffee Counter (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46FAF5A25E37A1E00007CC2 /* Debug */,
+				F46FAF5B25E37A1E00007CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F46FAF3625E37A1C00007CC2 /* Project object */;
+}
