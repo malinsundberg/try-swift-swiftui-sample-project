@@ -11,17 +11,15 @@ struct CoffeeConsumptionView: View {
     @State private var coffeeCounter = 0
     
     var body: some View {
-        VStack {
-            Text("Do you like ☕️?")
-                .textWithBackground()
-                .padding(.bottom)
+        VStack(alignment: .leading) {
+            InfoTextView(title: "Coffee consumption at a glance", subtitle: "See how much coffee you're drinking")
             
-            Text("Keep track of how much coffee you drink")
-                .textWithBackground()
-                .padding(.bottom)
+            Spacer()
             
-            Text(coffeeCounter < 0 ? "No coffees today" : (coffeeCounter == 1 ? "\(coffeeCounter) coffee today" : "\(coffeeCounter) coffees today"))
+            Text("Coffee Consumption:")
                 .textWithBackground()
+            
+            TitleWithSubtitleView(title: coffeeCounter == 0 ? "No coffee today" : (coffeeCounter == 1 ? "\(coffeeCounter) coffee today" : "\(coffeeCounter) coffees today"), subtitle: "Wednesday 24th")
             
             Spacer()
             
