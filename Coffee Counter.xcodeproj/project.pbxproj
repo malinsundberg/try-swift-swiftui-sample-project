@@ -22,6 +22,7 @@
 		F46FAFAA25E39CAB00007CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46FAF6625E37AC300007CC2 /* Assets.xcassets */; };
 		F46FAFED25E4D7BD00007CC2 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFEC25E4D7BD00007CC2 /* HelperFunctions.swift */; };
 		F46FAFEE25E4D7BD00007CC2 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFEC25E4D7BD00007CC2 /* HelperFunctions.swift */; };
+		F49FC2EF2611A3E100923FA4 /* CoffeeConsumptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC2EE2611A3E100923FA4 /* CoffeeConsumptionView.swift */; };
 		F4A9E38725E61BA100E620A3 /* RoundedCornerRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A9E38125E61B9D00E620A3 /* RoundedCornerRectangle.swift */; };
 		F4A9E39525E61C8000E620A3 /* RoundedCornerRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A9E38125E61B9D00E620A3 /* RoundedCornerRectangle.swift */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,7 @@
 		F46FAF7225E38AEA00007CC2 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		F46FAF8825E38DFF00007CC2 /* ChartValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartValue.swift; sourceTree = "<group>"; };
 		F46FAFEC25E4D7BD00007CC2 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		F49FC2EE2611A3E100923FA4 /* CoffeeConsumptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeConsumptionView.swift; sourceTree = "<group>"; };
 		F4A9E38125E61B9D00E620A3 /* RoundedCornerRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerRectangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +82,7 @@
 				F46FAF7D25E38D9700007CC2 /* Composed Views */,
 				F46FAF3B25E37A1C00007CC2 /* Coffee_CounterApp.swift */,
 				F46FAF3C25E37A1C00007CC2 /* ContentView.swift */,
+				F49FC2EE2611A3E100923FA4 /* CoffeeConsumptionView.swift */,
 				F46FAF6625E37AC300007CC2 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F49FC2EF2611A3E100923FA4 /* CoffeeConsumptionView.swift in Sources */,
 				F46FAFED25E4D7BD00007CC2 /* HelperFunctions.swift in Sources */,
 				F46FAF5025E37A1E00007CC2 /* ContentView.swift in Sources */,
 				F46FAF4E25E37A1E00007CC2 /* Coffee_CounterApp.swift in Sources */,
