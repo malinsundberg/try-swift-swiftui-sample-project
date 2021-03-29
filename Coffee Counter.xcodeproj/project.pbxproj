@@ -23,6 +23,23 @@
 		F46FAFED25E4D7BD00007CC2 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFEC25E4D7BD00007CC2 /* HelperFunctions.swift */; };
 		F46FAFEE25E4D7BD00007CC2 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFEC25E4D7BD00007CC2 /* HelperFunctions.swift */; };
 		F49FC2EF2611A3E100923FA4 /* CoffeeConsumptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC2EE2611A3E100923FA4 /* CoffeeConsumptionView.swift */; };
+		F49FC2F32611A5F200923FA4 /* TextWithBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC2F22611A5F200923FA4 /* TextWithBackground.swift */; };
+		F49FC2F72611A62100923FA4 /* StylishButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC2F62611A62100923FA4 /* StylishButtonStyle.swift */; };
+		F49FC3012611A6AC00923FA4 /* TitleWithSubtitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC3002611A6AC00923FA4 /* TitleWithSubtitleView.swift */; };
+		F49FC3052611A72E00923FA4 /* InfoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC3042611A72E00923FA4 /* InfoTextView.swift */; };
+		F49FC3092611A7A600923FA4 /* PlatformModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC3082611A7A600923FA4 /* PlatformModifiers.swift */; };
+		F49FC3132611A84000923FA4 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC3122611A84000923FA4 /* ChartView.swift */; };
+		F49FC3172611A85E00923FA4 /* ChartBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC3162611A85E00923FA4 /* ChartBar.swift */; };
+		F49FC31B2611A86B00923FA4 /* ChartViewWithAxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC31A2611A86B00923FA4 /* ChartViewWithAxes.swift */; };
+		F49FC3402612D66D00923FA4 /* PlatformModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC3082611A7A600923FA4 /* PlatformModifiers.swift */; };
+		F49FC3432612D67200923FA4 /* TextWithBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC2F22611A5F200923FA4 /* TextWithBackground.swift */; };
+		F49FC3462612D67500923FA4 /* StylishButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC2F62611A62100923FA4 /* StylishButtonStyle.swift */; };
+		F49FC3492612D67900923FA4 /* TitleWithSubtitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC3002611A6AC00923FA4 /* TitleWithSubtitleView.swift */; };
+		F49FC34C2612D67B00923FA4 /* InfoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC3042611A72E00923FA4 /* InfoTextView.swift */; };
+		F49FC34F2612D68200923FA4 /* ChartViewWithAxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC31A2611A86B00923FA4 /* ChartViewWithAxes.swift */; };
+		F49FC3522612D68500923FA4 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC3122611A84000923FA4 /* ChartView.swift */; };
+		F49FC3552612D68900923FA4 /* ChartBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC3162611A85E00923FA4 /* ChartBar.swift */; };
+		F49FC3582612D69000923FA4 /* CoffeeConsumptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC2EE2611A3E100923FA4 /* CoffeeConsumptionView.swift */; };
 		F4A9E38725E61BA100E620A3 /* RoundedCornerRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A9E38125E61B9D00E620A3 /* RoundedCornerRectangle.swift */; };
 		F4A9E39525E61C8000E620A3 /* RoundedCornerRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A9E38125E61B9D00E620A3 /* RoundedCornerRectangle.swift */; };
 /* End PBXBuildFile section */
@@ -42,6 +59,14 @@
 		F46FAF8825E38DFF00007CC2 /* ChartValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartValue.swift; sourceTree = "<group>"; };
 		F46FAFEC25E4D7BD00007CC2 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
 		F49FC2EE2611A3E100923FA4 /* CoffeeConsumptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeConsumptionView.swift; sourceTree = "<group>"; };
+		F49FC2F22611A5F200923FA4 /* TextWithBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWithBackground.swift; sourceTree = "<group>"; };
+		F49FC2F62611A62100923FA4 /* StylishButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylishButtonStyle.swift; sourceTree = "<group>"; };
+		F49FC3002611A6AC00923FA4 /* TitleWithSubtitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleWithSubtitleView.swift; sourceTree = "<group>"; };
+		F49FC3042611A72E00923FA4 /* InfoTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTextView.swift; sourceTree = "<group>"; };
+		F49FC3082611A7A600923FA4 /* PlatformModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformModifiers.swift; sourceTree = "<group>"; };
+		F49FC3122611A84000923FA4 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		F49FC3162611A85E00923FA4 /* ChartBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartBar.swift; sourceTree = "<group>"; };
+		F49FC31A2611A86B00923FA4 /* ChartViewWithAxes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewWithAxes.swift; sourceTree = "<group>"; };
 		F4A9E38125E61B9D00E620A3 /* RoundedCornerRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerRectangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +146,7 @@
 				F46FAF6B25E38ACD00007CC2 /* Constants.swift */,
 				F46FAFEC25E4D7BD00007CC2 /* HelperFunctions.swift */,
 				F46FAF7225E38AEA00007CC2 /* Color+Extension.swift */,
+				F49FC3082611A7A600923FA4 /* PlatformModifiers.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -128,6 +154,7 @@
 		F46FAF7B25E38D6800007CC2 /* Modifiers */ = {
 			isa = PBXGroup;
 			children = (
+				F49FC2F22611A5F200923FA4 /* TextWithBackground.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -135,6 +162,7 @@
 		F46FAF7C25E38D8000007CC2 /* Custom Styles */ = {
 			isa = PBXGroup;
 			children = (
+				F49FC2F62611A62100923FA4 /* StylishButtonStyle.swift */,
 			);
 			path = "Custom Styles";
 			sourceTree = "<group>";
@@ -151,6 +179,8 @@
 		F46FAF7E25E38DA100007CC2 /* Title and Subtitle View */ = {
 			isa = PBXGroup;
 			children = (
+				F49FC3002611A6AC00923FA4 /* TitleWithSubtitleView.swift */,
+				F49FC3042611A72E00923FA4 /* InfoTextView.swift */,
 			);
 			path = "Title and Subtitle View";
 			sourceTree = "<group>";
@@ -160,6 +190,9 @@
 			children = (
 				F4A9E38125E61B9D00E620A3 /* RoundedCornerRectangle.swift */,
 				F46FAF8825E38DFF00007CC2 /* ChartValue.swift */,
+				F49FC31A2611A86B00923FA4 /* ChartViewWithAxes.swift */,
+				F49FC3122611A84000923FA4 /* ChartView.swift */,
+				F49FC3162611A85E00923FA4 /* ChartBar.swift */,
 			);
 			path = "Chart View";
 			sourceTree = "<group>";
@@ -261,14 +294,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F49FC2F32611A5F200923FA4 /* TextWithBackground.swift in Sources */,
+				F49FC3052611A72E00923FA4 /* InfoTextView.swift in Sources */,
+				F49FC3012611A6AC00923FA4 /* TitleWithSubtitleView.swift in Sources */,
+				F49FC3132611A84000923FA4 /* ChartView.swift in Sources */,
 				F49FC2EF2611A3E100923FA4 /* CoffeeConsumptionView.swift in Sources */,
 				F46FAFED25E4D7BD00007CC2 /* HelperFunctions.swift in Sources */,
 				F46FAF5025E37A1E00007CC2 /* ContentView.swift in Sources */,
 				F46FAF4E25E37A1E00007CC2 /* Coffee_CounterApp.swift in Sources */,
 				F46FAF6C25E38ACD00007CC2 /* Constants.swift in Sources */,
+				F49FC2F72611A62100923FA4 /* StylishButtonStyle.swift in Sources */,
 				F46FAF8925E38DFF00007CC2 /* ChartValue.swift in Sources */,
+				F49FC3172611A85E00923FA4 /* ChartBar.swift in Sources */,
+				F49FC31B2611A86B00923FA4 /* ChartViewWithAxes.swift in Sources */,
 				F4A9E39525E61C8000E620A3 /* RoundedCornerRectangle.swift in Sources */,
 				F46FAF7325E38AEA00007CC2 /* Color+Extension.swift in Sources */,
+				F49FC3092611A7A600923FA4 /* PlatformModifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,14 +317,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F49FC3552612D68900923FA4 /* ChartBar.swift in Sources */,
+				F49FC3432612D67200923FA4 /* TextWithBackground.swift in Sources */,
 				F46FAFEE25E4D7BD00007CC2 /* HelperFunctions.swift in Sources */,
 				F46FAF5125E37A1E00007CC2 /* ContentView.swift in Sources */,
+				F49FC3402612D66D00923FA4 /* PlatformModifiers.swift in Sources */,
+				F49FC34F2612D68200923FA4 /* ChartViewWithAxes.swift in Sources */,
+				F49FC3582612D69000923FA4 /* CoffeeConsumptionView.swift in Sources */,
 				F46FAF7425E38AEA00007CC2 /* Color+Extension.swift in Sources */,
 				F46FAF5F25E37A6900007CC2 /* AppDelegate.swift in Sources */,
 				F46FAF8A25E38DFF00007CC2 /* ChartValue.swift in Sources */,
+				F49FC3522612D68500923FA4 /* ChartView.swift in Sources */,
 				F46FAF4F25E37A1E00007CC2 /* Coffee_CounterApp.swift in Sources */,
 				F4A9E38725E61BA100E620A3 /* RoundedCornerRectangle.swift in Sources */,
 				F46FAF6D25E38ACD00007CC2 /* Constants.swift in Sources */,
+				F49FC3462612D67500923FA4 /* StylishButtonStyle.swift in Sources */,
+				F49FC3492612D67900923FA4 /* TitleWithSubtitleView.swift in Sources */,
+				F49FC34C2612D67B00923FA4 /* InfoTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,14 +11,14 @@ struct CoffeeConsumptionView: View {
     var body: some View {
         VStack {
             Text("Do you like ☕️?")
-                .padding()
+                .padding(.bottom)
             
             Text("Keep track of how much coffee you drink")
-                .padding()
+                .padding(.bottom)
             
             Button("Coffee Time!") {}
                 .padding()
-        }
+        }.navigationTitle("Coffee Counter")
     }
 }
 
