@@ -34,6 +34,16 @@
 		F46FAFDC25E4D2D300007CC2 /* ChartViewWithAxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFDB25E4D2D300007CC2 /* ChartViewWithAxes.swift */; };
 		F46FAFFC25E4D7F300007CC2 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFFB25E4D7F300007CC2 /* HelperFunctions.swift */; };
 		F46FAFFD25E4D7F300007CC2 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFFB25E4D7F300007CC2 /* HelperFunctions.swift */; };
+		F49FC39C2612FDC200923FA4 /* PlatformModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC39B2612FDC200923FA4 /* PlatformModifiers.swift */; };
+		F49FC39D2612FDC200923FA4 /* PlatformModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC39B2612FDC200923FA4 /* PlatformModifiers.swift */; };
+		F49FC3A02612FDEB00923FA4 /* CoffeeConsumptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF9125E3992400007CC2 /* CoffeeConsumptionView.swift */; };
+		F49FC3A32612FDF800923FA4 /* ChartBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFD725E4CBA900007CC2 /* ChartBar.swift */; };
+		F49FC3A62612FDFC00923FA4 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFD325E4C8C400007CC2 /* ChartView.swift */; };
+		F49FC3A92612FDFF00923FA4 /* ChartViewWithAxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFDB25E4D2D300007CC2 /* ChartViewWithAxes.swift */; };
+		F49FC3AC2612FE0900923FA4 /* InfoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFCF25E4BC1B00007CC2 /* InfoTextView.swift */; };
+		F49FC3AF2612FE0C00923FA4 /* TitleWithSubtitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFCB25E4BC0900007CC2 /* TitleWithSubtitleView.swift */; };
+		F49FC3B82612FE1600923FA4 /* StylishButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFAD25E39E2400007CC2 /* StylishButtonStyle.swift */; };
+		F49FC3BB2612FE1A00923FA4 /* TextWithBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF9F25E39A8000007CC2 /* TextWithBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +71,7 @@
 		F46FAFD725E4CBA900007CC2 /* ChartBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartBar.swift; sourceTree = "<group>"; };
 		F46FAFDB25E4D2D300007CC2 /* ChartViewWithAxes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewWithAxes.swift; sourceTree = "<group>"; };
 		F46FAFFB25E4D7F300007CC2 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		F49FC39B2612FDC200923FA4 /* PlatformModifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatformModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +111,8 @@
 				F46FAF7D25E38D9700007CC2 /* Composed Views */,
 				F46FAF3B25E37A1C00007CC2 /* Coffee_CounterApp.swift */,
 				F46FAF3C25E37A1C00007CC2 /* ContentView.swift */,
-				F46FAF6625E37AC300007CC2 /* Assets.xcassets */,
 				F46FAF9125E3992400007CC2 /* CoffeeConsumptionView.swift */,
+				F46FAF6625E37AC300007CC2 /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -139,6 +150,7 @@
 				F46FAF6B25E38ACD00007CC2 /* Constants.swift */,
 				F46FAF7225E38AEA00007CC2 /* Color+Extension.swift */,
 				F46FAFFB25E4D7F300007CC2 /* HelperFunctions.swift */,
+				F49FC39B2612FDC200923FA4 /* PlatformModifiers.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -184,8 +196,8 @@
 			children = (
 				F46FAF8025E38DC600007CC2 /* RoundedCornerRectangle.swift */,
 				F46FAF8825E38DFF00007CC2 /* ChartValue.swift */,
-				F46FAFD325E4C8C400007CC2 /* ChartView.swift */,
 				F46FAFDB25E4D2D300007CC2 /* ChartViewWithAxes.swift */,
+				F46FAFD325E4C8C400007CC2 /* ChartView.swift */,
 				F46FAFD725E4CBA900007CC2 /* ChartBar.swift */,
 			);
 			path = "Chart View";
@@ -299,6 +311,7 @@
 				F46FAFA025E39A8000007CC2 /* TextWithBackground.swift in Sources */,
 				F46FAF8925E38DFF00007CC2 /* ChartValue.swift in Sources */,
 				F46FAF7325E38AEA00007CC2 /* Color+Extension.swift in Sources */,
+				F49FC39C2612FDC200923FA4 /* PlatformModifiers.swift in Sources */,
 				F46FAFD825E4CBA900007CC2 /* ChartBar.swift in Sources */,
 				F46FAFDC25E4D2D300007CC2 /* ChartViewWithAxes.swift in Sources */,
 				F46FAFFC25E4D7F300007CC2 /* HelperFunctions.swift in Sources */,
@@ -314,12 +327,21 @@
 			files = (
 				F46FAF8225E38DC600007CC2 /* RoundedCornerRectangle.swift in Sources */,
 				F46FAFFD25E4D7F300007CC2 /* HelperFunctions.swift in Sources */,
+				F49FC39D2612FDC200923FA4 /* PlatformModifiers.swift in Sources */,
 				F46FAF7425E38AEA00007CC2 /* Color+Extension.swift in Sources */,
+				F49FC3A02612FDEB00923FA4 /* CoffeeConsumptionView.swift in Sources */,
+				F49FC3AC2612FE0900923FA4 /* InfoTextView.swift in Sources */,
 				F46FAF9725E399A100007CC2 /* ContentView.swift in Sources */,
+				F49FC3BB2612FE1A00923FA4 /* TextWithBackground.swift in Sources */,
 				F46FAF5F25E37A6900007CC2 /* AppDelegate.swift in Sources */,
+				F49FC3B82612FE1600923FA4 /* StylishButtonStyle.swift in Sources */,
 				F46FAF8A25E38DFF00007CC2 /* ChartValue.swift in Sources */,
 				F46FAF4F25E37A1E00007CC2 /* Coffee_CounterApp.swift in Sources */,
+				F49FC3A32612FDF800923FA4 /* ChartBar.swift in Sources */,
+				F49FC3AF2612FE0C00923FA4 /* TitleWithSubtitleView.swift in Sources */,
 				F46FAF6D25E38ACD00007CC2 /* Constants.swift in Sources */,
+				F49FC3A92612FDFF00923FA4 /* ChartViewWithAxes.swift in Sources */,
+				F49FC3A62612FDFC00923FA4 /* ChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
