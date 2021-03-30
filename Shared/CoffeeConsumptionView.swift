@@ -28,11 +28,13 @@ struct CoffeeConsumptionView: View {
                 .textWithBackground()
                 .padding(.bottom, 6)
 
-            if let selectedID = selectedID, let value = chartValues.first(where: { $0.id == selectedID })?.value {
-                TitleWithSubtitleView(title: value == 0 ? "No coffee" : (value == 1 ? "\(value) coffee" : "\(value) coffees"), subtitle: "On selected day")
-            } else {
-                TitleWithSubtitleView(title: "No day selected", subtitle: "Select the day you want to see details for")
-            }
+            VStack {
+                if let value = chartValues.first(where: { $0.id == selectedID })?.value {
+                    TitleWithSubtitleView(title: value == 0 ? "No coffee" : (value == 1 ? "\(value) coffee" : "\(value) coffees"), subtitle: "On selected day")
+                } else {
+                    TitleWithSubtitleView(title: "No day selected", subtitle: "Select the day you want to see details for")
+                }
+            }.animation(nil)
 
             Spacer()
 
@@ -44,11 +46,10 @@ struct CoffeeConsumptionView: View {
     }
     
     private func incrementCoffeeCount() {
-        let last = chartValues.count - 1
-        let newValue = chartValues[last].value + 1
-        let id = chartValues[last].id
+        let lastIndex = chartValues.count - 1
+        
         withAnimation {
-            chartValues[last] = ChartValue(id: id, value: newValue)
+            chartValues[lastIndex].value += 1
         }
     }
 }

@@ -24,10 +24,14 @@ struct ChartBar: View {
         GeometryReader { geometryReader in
             RoundedCornerRectangle(topLeft: 10, topRight: 10, bottomLeft: 0, bottomRight: 0)
                 .fill(Constants.linearGradient)
-                .padding(.top, geometryReader.size.height - (value * geometryReader.size.height))
+                .padding(.top, getInset(for: geometryReader.size.height, value: value))
                 .opacity(opacity)
                 .scaleEffect(scale, anchor: .bottom)
         }
+    }
+    
+    private func getInset(for frameHeight: CGFloat, value: CGFloat) -> CGFloat {
+        frameHeight - (value * frameHeight)
     }
 }
 

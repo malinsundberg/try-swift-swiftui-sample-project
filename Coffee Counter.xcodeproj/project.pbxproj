@@ -111,8 +111,8 @@
 				F46FAF7D25E38D9700007CC2 /* Composed Views */,
 				F46FAF3B25E37A1C00007CC2 /* Coffee_CounterApp.swift */,
 				F46FAF3C25E37A1C00007CC2 /* ContentView.swift */,
-				F46FAF6625E37AC300007CC2 /* Assets.xcassets */,
 				F46FAF9125E3992400007CC2 /* CoffeeConsumptionView.swift */,
+				F46FAF6625E37AC300007CC2 /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -196,8 +196,8 @@
 			children = (
 				F46FAF8025E38DC600007CC2 /* RoundedCornerRectangle.swift */,
 				F46FAF8825E38DFF00007CC2 /* ChartValue.swift */,
-				F46FAFD325E4C8C400007CC2 /* ChartView.swift */,
 				F46FAFDB25E4D2D300007CC2 /* ChartViewWithAxes.swift */,
+				F46FAFD325E4C8C400007CC2 /* ChartView.swift */,
 				F46FAFD725E4CBA900007CC2 /* ChartBar.swift */,
 			);
 			path = "Chart View";
