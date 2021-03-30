@@ -29,6 +29,21 @@
 		F46FAFBA25E3A2DE00007CC2 /* OutstandingLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFB925E3A2DE00007CC2 /* OutstandingLabelStyle.swift */; };
 		F46FAFF225E4D7CF00007CC2 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFF125E4D7CF00007CC2 /* HelperFunctions.swift */; };
 		F46FAFF325E4D7CF00007CC2 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFF125E4D7CF00007CC2 /* HelperFunctions.swift */; };
+		F49FC3272612D61C00923FA4 /* PlatformModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC3262612D61C00923FA4 /* PlatformModifiers.swift */; };
+		F49FC3282612D61C00923FA4 /* PlatformModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC3262612D61C00923FA4 /* PlatformModifiers.swift */; };
+		F49FC32D2612D62C00923FA4 /* InfoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC32B2612D62C00923FA4 /* InfoTextView.swift */; };
+		F49FC32E2612D62C00923FA4 /* InfoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC32B2612D62C00923FA4 /* InfoTextView.swift */; };
+		F49FC32F2612D62C00923FA4 /* TitleWithSubtitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC32C2612D62C00923FA4 /* TitleWithSubtitleView.swift */; };
+		F49FC3302612D62C00923FA4 /* TitleWithSubtitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC32C2612D62C00923FA4 /* TitleWithSubtitleView.swift */; };
+		F49FC3362612D64000923FA4 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC3332612D64000923FA4 /* ChartView.swift */; };
+		F49FC3372612D64000923FA4 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC3332612D64000923FA4 /* ChartView.swift */; };
+		F49FC3382612D64000923FA4 /* ChartViewWithAxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC3342612D64000923FA4 /* ChartViewWithAxes.swift */; };
+		F49FC3392612D64000923FA4 /* ChartViewWithAxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC3342612D64000923FA4 /* ChartViewWithAxes.swift */; };
+		F49FC33A2612D64000923FA4 /* ChartBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC3352612D64000923FA4 /* ChartBar.swift */; };
+		F49FC33B2612D64000923FA4 /* ChartBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC3352612D64000923FA4 /* ChartBar.swift */; };
+		F49FC35B2612D6A100923FA4 /* TextWithBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF9F25E39A8000007CC2 /* TextWithBackground.swift */; };
+		F49FC35E2612D6A400923FA4 /* StylishButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFAD25E39E2400007CC2 /* StylishButtonStyle.swift */; };
+		F49FC36B2612D6C800923FA4 /* CoffeeConsumptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF9125E3992400007CC2 /* CoffeeConsumptionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +66,12 @@
 		F46FAFB125E3A2AC00007CC2 /* LabelStylingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelStylingExample.swift; sourceTree = "<group>"; };
 		F46FAFB925E3A2DE00007CC2 /* OutstandingLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutstandingLabelStyle.swift; sourceTree = "<group>"; };
 		F46FAFF125E4D7CF00007CC2 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		F49FC3262612D61C00923FA4 /* PlatformModifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatformModifiers.swift; sourceTree = "<group>"; };
+		F49FC32B2612D62C00923FA4 /* InfoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoTextView.swift; sourceTree = "<group>"; };
+		F49FC32C2612D62C00923FA4 /* TitleWithSubtitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleWithSubtitleView.swift; sourceTree = "<group>"; };
+		F49FC3332612D64000923FA4 /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		F49FC3342612D64000923FA4 /* ChartViewWithAxes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewWithAxes.swift; sourceTree = "<group>"; };
+		F49FC3352612D64000923FA4 /* ChartBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +111,8 @@
 				F46FAF7D25E38D9700007CC2 /* Composed Views */,
 				F46FAF3B25E37A1C00007CC2 /* Coffee_CounterApp.swift */,
 				F46FAF3C25E37A1C00007CC2 /* ContentView.swift */,
-				F46FAF6625E37AC300007CC2 /* Assets.xcassets */,
 				F46FAF9125E3992400007CC2 /* CoffeeConsumptionView.swift */,
+				F46FAF6625E37AC300007CC2 /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -129,6 +150,7 @@
 				F46FAF6B25E38ACD00007CC2 /* Constants.swift */,
 				F46FAFF125E4D7CF00007CC2 /* HelperFunctions.swift */,
 				F46FAF7225E38AEA00007CC2 /* Color+Extension.swift */,
+				F49FC3262612D61C00923FA4 /* PlatformModifiers.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -163,6 +185,8 @@
 		F46FAF7E25E38DA100007CC2 /* Title and Subtitle View */ = {
 			isa = PBXGroup;
 			children = (
+				F49FC32B2612D62C00923FA4 /* InfoTextView.swift */,
+				F49FC32C2612D62C00923FA4 /* TitleWithSubtitleView.swift */,
 			);
 			path = "Title and Subtitle View";
 			sourceTree = "<group>";
@@ -172,6 +196,9 @@
 			children = (
 				F46FAF8025E38DC600007CC2 /* RoundedCornerRectangle.swift */,
 				F46FAF8825E38DFF00007CC2 /* ChartValue.swift */,
+				F49FC3352612D64000923FA4 /* ChartBar.swift */,
+				F49FC3332612D64000923FA4 /* ChartView.swift */,
+				F49FC3342612D64000923FA4 /* ChartViewWithAxes.swift */,
 			);
 			path = "Chart View";
 			sourceTree = "<group>";
@@ -278,13 +305,19 @@
 				F46FAF5025E37A1E00007CC2 /* ContentView.swift in Sources */,
 				F46FAF4E25E37A1E00007CC2 /* Coffee_CounterApp.swift in Sources */,
 				F46FAF9225E3992400007CC2 /* CoffeeConsumptionView.swift in Sources */,
+				F49FC32D2612D62C00923FA4 /* InfoTextView.swift in Sources */,
 				F46FAFF225E4D7CF00007CC2 /* HelperFunctions.swift in Sources */,
+				F49FC3362612D64000923FA4 /* ChartView.swift in Sources */,
+				F49FC33A2612D64000923FA4 /* ChartBar.swift in Sources */,
 				F46FAFB225E3A2AC00007CC2 /* LabelStylingExample.swift in Sources */,
 				F46FAF6C25E38ACD00007CC2 /* Constants.swift in Sources */,
 				F46FAFA025E39A8000007CC2 /* TextWithBackground.swift in Sources */,
 				F46FAF8925E38DFF00007CC2 /* ChartValue.swift in Sources */,
+				F49FC32F2612D62C00923FA4 /* TitleWithSubtitleView.swift in Sources */,
 				F46FAF7325E38AEA00007CC2 /* Color+Extension.swift in Sources */,
 				F46FAFBA25E3A2DE00007CC2 /* OutstandingLabelStyle.swift in Sources */,
+				F49FC3382612D64000923FA4 /* ChartViewWithAxes.swift in Sources */,
+				F49FC3272612D61C00923FA4 /* PlatformModifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,14 +325,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F49FC35E2612D6A400923FA4 /* StylishButtonStyle.swift in Sources */,
+				F49FC35B2612D6A100923FA4 /* TextWithBackground.swift in Sources */,
 				F46FAF8225E38DC600007CC2 /* RoundedCornerRectangle.swift in Sources */,
+				F49FC3302612D62C00923FA4 /* TitleWithSubtitleView.swift in Sources */,
 				F46FAFF325E4D7CF00007CC2 /* HelperFunctions.swift in Sources */,
+				F49FC3282612D61C00923FA4 /* PlatformModifiers.swift in Sources */,
+				F49FC36B2612D6C800923FA4 /* CoffeeConsumptionView.swift in Sources */,
 				F46FAF7425E38AEA00007CC2 /* Color+Extension.swift in Sources */,
 				F46FAF9725E399A100007CC2 /* ContentView.swift in Sources */,
+				F49FC32E2612D62C00923FA4 /* InfoTextView.swift in Sources */,
 				F46FAF5F25E37A6900007CC2 /* AppDelegate.swift in Sources */,
 				F46FAF8A25E38DFF00007CC2 /* ChartValue.swift in Sources */,
 				F46FAF4F25E37A1E00007CC2 /* Coffee_CounterApp.swift in Sources */,
 				F46FAF6D25E38ACD00007CC2 /* Constants.swift in Sources */,
+				F49FC3392612D64000923FA4 /* ChartViewWithAxes.swift in Sources */,
+				F49FC33B2612D64000923FA4 /* ChartBar.swift in Sources */,
+				F49FC3372612D64000923FA4 /* ChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -21,6 +21,5 @@ struct StylishButtonStyle: ButtonStyle {
                         .strokeBorder(Color.CoffeeCounter.outline, lineWidth: 1))
             .overlay(configuration.isPressed ? RoundedRectangle(cornerRadius: 10, style: .continuous)
                         .fill(Color.CoffeeCounter.buttonInteraction) : nil)
-        
     }
 }
