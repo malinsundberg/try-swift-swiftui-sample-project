@@ -31,6 +31,19 @@
 		F46FAFD025E4BC1B00007CC2 /* InfoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFCF25E4BC1B00007CC2 /* InfoTextView.swift */; };
 		F46FAFF725E4D7E200007CC2 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFF625E4D7E200007CC2 /* HelperFunctions.swift */; };
 		F46FAFF825E4D7E200007CC2 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFF625E4D7E200007CC2 /* HelperFunctions.swift */; };
+		F49FC3752612D82300923FA4 /* PlatformModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC3742612D82300923FA4 /* PlatformModifiers.swift */; };
+		F49FC3762612D82300923FA4 /* PlatformModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC3742612D82300923FA4 /* PlatformModifiers.swift */; };
+		F49FC37C2612D86100923FA4 /* ChartBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC3792612D86100923FA4 /* ChartBar.swift */; };
+		F49FC37D2612D86100923FA4 /* ChartBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC3792612D86100923FA4 /* ChartBar.swift */; };
+		F49FC37E2612D86100923FA4 /* ChartViewWithAxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC37A2612D86100923FA4 /* ChartViewWithAxes.swift */; };
+		F49FC37F2612D86100923FA4 /* ChartViewWithAxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC37A2612D86100923FA4 /* ChartViewWithAxes.swift */; };
+		F49FC3802612D86100923FA4 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC37B2612D86100923FA4 /* ChartView.swift */; };
+		F49FC3812612D86100923FA4 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49FC37B2612D86100923FA4 /* ChartView.swift */; };
+		F49FC3842612D87900923FA4 /* TextWithBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF9F25E39A8000007CC2 /* TextWithBackground.swift */; };
+		F49FC3872612D87F00923FA4 /* StylishButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFAD25E39E2400007CC2 /* StylishButtonStyle.swift */; };
+		F49FC38A2612D88700923FA4 /* TitleWithSubtitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFCB25E4BC0900007CC2 /* TitleWithSubtitleView.swift */; };
+		F49FC38D2612D88A00923FA4 /* InfoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAFCF25E4BC1B00007CC2 /* InfoTextView.swift */; };
+		F49FC3902612D8A100923FA4 /* CoffeeConsumptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FAF9125E3992400007CC2 /* CoffeeConsumptionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +68,10 @@
 		F46FAFCB25E4BC0900007CC2 /* TitleWithSubtitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleWithSubtitleView.swift; sourceTree = "<group>"; };
 		F46FAFCF25E4BC1B00007CC2 /* InfoTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTextView.swift; sourceTree = "<group>"; };
 		F46FAFF625E4D7E200007CC2 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		F49FC3742612D82300923FA4 /* PlatformModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformModifiers.swift; sourceTree = "<group>"; };
+		F49FC3792612D86100923FA4 /* ChartBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartBar.swift; sourceTree = "<group>"; };
+		F49FC37A2612D86100923FA4 /* ChartViewWithAxes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewWithAxes.swift; sourceTree = "<group>"; };
+		F49FC37B2612D86100923FA4 /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +111,8 @@
 				F46FAF7D25E38D9700007CC2 /* Composed Views */,
 				F46FAF3B25E37A1C00007CC2 /* Coffee_CounterApp.swift */,
 				F46FAF3C25E37A1C00007CC2 /* ContentView.swift */,
-				F46FAF6625E37AC300007CC2 /* Assets.xcassets */,
 				F46FAF9125E3992400007CC2 /* CoffeeConsumptionView.swift */,
+				F46FAF6625E37AC300007CC2 /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -131,8 +148,9 @@
 			isa = PBXGroup;
 			children = (
 				F46FAF6B25E38ACD00007CC2 /* Constants.swift */,
-				F46FAF7225E38AEA00007CC2 /* Color+Extension.swift */,
 				F46FAFF625E4D7E200007CC2 /* HelperFunctions.swift */,
+				F46FAF7225E38AEA00007CC2 /* Color+Extension.swift */,
+				F49FC3742612D82300923FA4 /* PlatformModifiers.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -178,6 +196,9 @@
 			children = (
 				F46FAF8025E38DC600007CC2 /* RoundedCornerRectangle.swift */,
 				F46FAF8825E38DFF00007CC2 /* ChartValue.swift */,
+				F49FC3792612D86100923FA4 /* ChartBar.swift */,
+				F49FC37B2612D86100923FA4 /* ChartView.swift */,
+				F49FC37A2612D86100923FA4 /* ChartViewWithAxes.swift */,
 			);
 			path = "Chart View";
 			sourceTree = "<group>";
@@ -279,10 +300,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F49FC37C2612D86100923FA4 /* ChartBar.swift in Sources */,
 				F46FAF8125E38DC600007CC2 /* RoundedCornerRectangle.swift in Sources */,
 				F46FAFAE25E39E2400007CC2 /* StylishButtonStyle.swift in Sources */,
 				F46FAF5025E37A1E00007CC2 /* ContentView.swift in Sources */,
 				F46FAF4E25E37A1E00007CC2 /* Coffee_CounterApp.swift in Sources */,
+				F49FC3802612D86100923FA4 /* ChartView.swift in Sources */,
 				F46FAF9225E3992400007CC2 /* CoffeeConsumptionView.swift in Sources */,
 				F46FAFB225E3A2AC00007CC2 /* LabelStylingExample.swift in Sources */,
 				F46FAF6C25E38ACD00007CC2 /* Constants.swift in Sources */,
@@ -293,6 +316,8 @@
 				F46FAFBA25E3A2DE00007CC2 /* OutstandingLabelStyle.swift in Sources */,
 				F46FAFCC25E4BC0900007CC2 /* TitleWithSubtitleView.swift in Sources */,
 				F46FAFD025E4BC1B00007CC2 /* InfoTextView.swift in Sources */,
+				F49FC37E2612D86100923FA4 /* ChartViewWithAxes.swift in Sources */,
+				F49FC3762612D82300923FA4 /* PlatformModifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,12 +327,21 @@
 			files = (
 				F46FAF8225E38DC600007CC2 /* RoundedCornerRectangle.swift in Sources */,
 				F46FAFF825E4D7E200007CC2 /* HelperFunctions.swift in Sources */,
+				F49FC3752612D82300923FA4 /* PlatformModifiers.swift in Sources */,
 				F46FAF7425E38AEA00007CC2 /* Color+Extension.swift in Sources */,
 				F46FAF9725E399A100007CC2 /* ContentView.swift in Sources */,
 				F46FAF5F25E37A6900007CC2 /* AppDelegate.swift in Sources */,
+				F49FC3902612D8A100923FA4 /* CoffeeConsumptionView.swift in Sources */,
+				F49FC37D2612D86100923FA4 /* ChartBar.swift in Sources */,
 				F46FAF8A25E38DFF00007CC2 /* ChartValue.swift in Sources */,
+				F49FC3842612D87900923FA4 /* TextWithBackground.swift in Sources */,
+				F49FC38D2612D88A00923FA4 /* InfoTextView.swift in Sources */,
 				F46FAF4F25E37A1E00007CC2 /* Coffee_CounterApp.swift in Sources */,
+				F49FC3872612D87F00923FA4 /* StylishButtonStyle.swift in Sources */,
+				F49FC38A2612D88700923FA4 /* TitleWithSubtitleView.swift in Sources */,
+				F49FC37F2612D86100923FA4 /* ChartViewWithAxes.swift in Sources */,
 				F46FAF6D25E38ACD00007CC2 /* Constants.swift in Sources */,
+				F49FC3812612D86100923FA4 /* ChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
